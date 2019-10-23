@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mindbrix/UIImage-PDF.git", :tag => "#{s.version}" }
   s.requires_arc = true
   s.source_files = "UIImage+PDF/**/*.{h,m}"
+  s.authors      = { '' => '' }
 end
